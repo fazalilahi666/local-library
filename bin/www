@@ -3,7 +3,8 @@
 /**
  * Module dependencies.
  */
-
+1
+require('dotenv').load();
 var app = require('../app');
 var debug = require('debug')('myexpressapp:server');
 var http = require('http');
